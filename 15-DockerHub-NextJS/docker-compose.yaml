@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app:
+    image: felipealcm/nextjs:latest
+    container_name: minha_primeira_imagem
+    ports:
+      - 8080:3000
+      
+    
